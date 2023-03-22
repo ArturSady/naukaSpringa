@@ -1,11 +1,11 @@
 package com.sda.springNauka;
 
-public class DBRepository {
+public class DBRepository implements Repository{
 
-    public void readFromDB(){
+    public void read(){
         System.out.println("Read from DB");
     }
-    public void writeToDB(){
+    public void write(){
         System.out.println("Write into DB");
     }
 }
