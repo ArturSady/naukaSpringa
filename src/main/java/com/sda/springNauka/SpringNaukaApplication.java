@@ -11,7 +11,8 @@ public class SpringNaukaApplication {
 		//public static void main(String[] args) {
 		//	SpringApplication.run(SpringNaukaApplication.class, args);
 		//}
-		Application application = new Application();
+		DBRepository dbRepository = new DBRepository();
+		Application application = new Application(dbRepository);
 
 		application.start();
 		application.end();

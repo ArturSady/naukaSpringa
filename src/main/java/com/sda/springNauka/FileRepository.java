@@ -1,6 +1,6 @@
 package com.sda.springNauka;
 
-public class FileRepository {
+public class FileRepository implements Repository {
 
     public void read(){
         System.out.println("Read from file");
